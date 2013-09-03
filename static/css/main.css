@@ -1,0 +1,33 @@
+body {
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    transition: background .5s ease-in-out, color .5s ease-in-out;
+   -moz-transition: background .5s ease-in-out, color .5s ease-in-out;
+   -webkit-transition: background .5s ease-in-out, color .5s ease-in-out;
+}
+
+#container {
+    margin:auto;
+    padding-top:15%;
+}
+
+#title {
+    margin-top:30px;
+    font-size:5em;
+    font-weight: bold;
+    margin:auto;
+    text-align:center;
+}
+
+#footer {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+
+#loading {
+    text-align: center
+}
+
+a {
+    color:inherit;
+}
